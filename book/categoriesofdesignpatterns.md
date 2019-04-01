@@ -1,29 +1,33 @@
-# Categorias de Padrão de Projeto
+<h1 align = "center">Categorias de Padrão de Projeto</h1>
 
-Um glossário do livro conhecido de projetos, *Domain-Driven Terms*, afirma com razão que:
 
-> Um padrão de projeto nomeia, abstra e identifica os aspectos de uma comum estrutura de projeto que faz isto útil para criação e reutilização de projetos orientados a objeto. O padrão de projeto identifica as classes participantes e suas instâncias, suas funções e colaborações, e a distribuição de responsabilidades.
 
-> Cada padrão de projeto foca em um problema ou questão particular de projetos orientados a objetos. Ele descreve quando se aplica, ou não pode ser aplicado em vista de outras restrições de projeto, e as consequências e os compromissos de se usá-lo. Desde que nós eventualmente implementemos nossos padrões, um padrão de projeto também fornece código de exemplo para ilustrar uma implementação.
+<p align = "justify">Um glossário do bastante conhecido livro de design, Domain-Driven Terms, afirma corretamente que:</p>
 
-> Embora padrões de projeto descrevam padrões orientado a objetos, eles são baseados em soluções práticas que devem ser implementadas em linguagens de programação orientada a objetos tradicionais..."
+<blockquote align = "justify">"Um padrão de design nomeia, abstrai e identifica os principais aspectos de uma estrutura de design comum que o torna útil para criar um design orientado a objeto reutilizável. O padrão de design identifica as classes participantes e suas instâncias, suas funções e colaborações e a distribuição de responsabilidades.
 
-Padrões de projeto pode ser divididos em um número de diferentes categorias. Nesta seção vamos revisar 3 destas categorias e mencionar brevemente alguns exemplos de padrões que caem nestas categorias antes de explorar especificamente alguns com maiores detalhes.
+Cada padrão de design se concentra em um determinado problema ou problema de design orientado a objeto. Ele descreve quando se aplica, se pode ou não ser aplicado em vista de outras restrições de projeto, e as conseqüências e desvantagens de seu uso. Desde que devemos implementar nossos projetos, um padrão de design também deve fornecer exemplos de código para ilustrar sua implementação.
 
-## Padrões de projetos Criacionais
+Embora os padrões de projeto descrevam projetos orientados a objetos, eles são baseados em soluções práticas que foram implementadas em linguagens de programação orientadas a objeto tradicionais ... ”</blockquote>
 
-Padrões de projetos Criacionais focam em lidar com os mecanismos de criação de objetos onde os objetos são criados de maneira adequada para a situação que estamos trabalhando. A abordagem básica para criação de objeto pode legar a adicionar complexidade ao projeto, enquanto esses padrões têm como objetivo resolver problemas através do controle do processo de criação.
+<p align = "justify">Os padrões de design podem ser divididos em várias categorias diferentes. Nesta seção, analisaremos três dessas categorias e mencionaremos brevemente alguns exemplos dos padrões que se enquadram nessas categorias antes de explorar os mais específicos com mais detalhes.</p>
 
-Alguns padrões que se encaixam nesta categoria são: Constructor, Factory, Abstract, Prototype, Singleton e Builder.
+### PADRÕES DE CRIAÇÃO
 
-## Padrões de Projetos Estruturais
+<p align = "justify">Padrões de design de criação focam no manuseio de mecanismos de criação de objetos, onde os objetos são criados de maneira adequada à situação em que estamos trabalhando. A abordagem básica para criação de objetos pode levar a complexidade adicional em um projeto, enquanto esses padrões visam resolver este problema controlando o processo de criação.</p>
 
-Padrões de projetos estruturais estão preocupados com composição de objetos e, normalmente, identificar maneiras simples de realizar as relações entre diferentes objetos. Eles ajudam a assegurar que quando uma parte do sistema muda, toda a estrutura do sistema não precisa fazer o mesmo. Eles também auxiliam na reformulação de partes do sistema que não encaixam em uma proposta particular dentro do que eles fazem.
+<p align = "justify">Alguns dos padrões que se enquadram nessa categoria são:<b> Constructor, Factory, Abstract, Prototype, Singleton e Builder.</b></p>
 
-Padrões que entram nesta categoria: Decorator, Facade, Flyweight, Adapter e Proxy.
+### PADRÕES ESTRUTURAIS
 
-## Padrões de projetos Comportamentais
+<p align = "justify">Padrões estruturais preocupam-se com a composição de objetos e, tipicamente, identificam maneiras simples de realizar relacionamentos entre diferentes objetos. Eles ajudam a garantir que, quando uma parte de um sistema muda, toda a estrutura do sistema não precisa fazer o mesmo. Eles também auxiliam na reformulação de partes do sistema que não se encaixam em um propósito específico para aqueles que o fazem.</p>
 
-Padrões de projetos comportamentais focam em melhorar ou simplificar a comunicação entre os objetos díspares em um sistema.
+<p align = "justify">Os padrões que se enquadram nessa categoria incluem: <b>Decorator, Facade, Flyweight, Adapter e Proxy.</b></p>
 
-Alguns padrões comportamentais são: Iterator, Mediator, Observer e Visitor.
+### PADRÕES DE COMPORTAMENTO
+
+<p align = "justify">Os padrões comportamentais concentram-se em melhorar ou simplificar a comunicação entre objetos diferentes em um sistema.</p>
+
+<p align = "justify">Alguns padrões comportamentais incluem: <b>Iterator, Mediator, Observer e Visitor.</b></p>
+
+<p align = "right"><b><a href = "https://github.com/ranielcsar/essencial-js-padroes-de-projeto/blob/master/book/summarytabledesignpatterns.md">Tabela Resumo das categorias de Padrão de Projeto »</a></b></p>
